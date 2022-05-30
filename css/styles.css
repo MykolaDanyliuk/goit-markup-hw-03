@@ -9,6 +9,16 @@
   --footer-bg-color: #2f303a;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
