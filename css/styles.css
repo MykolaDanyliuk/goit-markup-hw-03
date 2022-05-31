@@ -28,6 +28,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -47,6 +49,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Logo */
@@ -108,20 +115,24 @@ body {
 /* Hero */
 .hero {
   background-color: var(--footer-bg-color);
+  outline: 2px solid tomato;
 
   width: 1600px;
   height: 600px;
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  background-color: tomato;
 }
 
 .hero-btn {
@@ -132,14 +143,12 @@ body {
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -150,7 +159,13 @@ body {
 }
 
 /* Feature */
+.feature {
+}
+
 .feature-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-size: 14px;
@@ -158,6 +173,9 @@ body {
 }
 
 .feature-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
@@ -165,8 +183,20 @@ body {
 }
 
 /* About and Team */
-.about-title,
+.about-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -178,6 +208,9 @@ body {
 }
 
 .team-person {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -185,6 +218,9 @@ body {
 }
 
 .team-text {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--title-text-color);
 
   font-size: 16px;
@@ -198,8 +234,6 @@ body {
 
   width: 1600px;
   height: 252px;
-  left: 0px;
-  top: 2097px;
 }
 
 .footer-address {
