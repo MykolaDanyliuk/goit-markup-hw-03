@@ -135,6 +135,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 2px solid tomato;
 }
 
 .hero-btn {
@@ -185,6 +186,9 @@ body {
 }
 
 /* About and Team */
+.about {
+  padding-bottom: 94px;
+}
 .about-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -234,7 +238,7 @@ body {
 .footer {
   background-color: var(--footer-bg-color);
 
-  padding-top: 60px;
+  padding-top: 110px;
   padding-bottom: 60px;
 }
 
@@ -266,6 +270,10 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
+}
+
+.address {
+  padding-top: 20px;
 }
 
 /* ------Portfolio------ */
