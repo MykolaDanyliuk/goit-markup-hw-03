@@ -112,13 +112,16 @@ body {
   color: var(--accent-color);
 }
 
+.header-page {
+  border-bottom: 1px solid #ececec;
+}
+
 /* Hero */
 .hero {
   background-color: var(--footer-bg-color);
   outline: 2px solid tomato;
+  padding: 200px;
 
-  width: 1600px;
-  height: 600px;
   text-align: center;
 }
 
@@ -232,8 +235,8 @@ body {
 .footer {
   background-color: var(--footer-bg-color);
 
-  width: 1600px;
-  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-address {
