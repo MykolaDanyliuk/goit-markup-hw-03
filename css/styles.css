@@ -323,7 +323,7 @@ body {
 /* ------Portfolio------ */
 /* Our Projects and Works */
 .projects-page {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--primary-white-color);
 }
 
 .projects-list {
@@ -335,15 +335,14 @@ body {
 }
 
 .works-item {
-  /* width: 370px;
-  height: 404px; */
+  /* background: #ffffff; */
 }
 
 .works-text {
   padding: 20px 25px;
-  border-bottom: 1px solid tomato;
-  border-left: 1px solid tomato;
-  border-right: 1px solid tomato;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 
   width: 370px;
 }
