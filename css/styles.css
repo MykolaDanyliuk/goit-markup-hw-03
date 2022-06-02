@@ -239,8 +239,22 @@ body {
   background-color: var(--team-button-bg-color);
 }
 
+.team-card {
+  width: 270px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-person {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -249,9 +263,9 @@ body {
   text-align: center;
 }
 
-.team-text {
+.team-position {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 
   color: var(--title-text-color);
 
