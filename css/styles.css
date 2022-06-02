@@ -299,7 +299,11 @@ body {
 }
 
 .address {
-  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.address-items {
+  margin-bottom: 10px;
 }
 
 /* ------Portfolio------ */
