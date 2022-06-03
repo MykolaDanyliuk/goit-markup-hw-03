@@ -116,6 +116,8 @@ body {
 
 .header-page {
   border-bottom: 1px solid #ececec;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-page .container {
@@ -210,6 +212,14 @@ body {
 }
 
 /* Feature */
+.feature-list {
+  display: flex;
+}
+
+.feature-text {
+  margin-right: 30px;
+}
+
 .feature-text {
   margin-top: 0;
   margin-bottom: 0;
@@ -234,6 +244,7 @@ body {
 .about {
   padding-bottom: 94px;
 }
+
 .about-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -242,6 +253,23 @@ body {
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-item + .about-item {
+  margin-left: 30px;
+}
+
+.about-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.team {
+  background-color: var(--team-button-bg-color);
 }
 
 .team-title {
@@ -254,12 +282,14 @@ body {
   text-align: center;
 }
 
-.team {
-  background-color: var(--team-button-bg-color);
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .team-card {
-  width: 270px;
+  width: calc((100% - 90px) / 4);
 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -335,7 +365,7 @@ body {
   margin-top: 20px;
 }
 
-.address-items {
+.address-items:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -346,15 +376,32 @@ body {
 }
 
 .projects-list {
-  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: -15px;
+}
+
+.works-item {
+  width: calc(100% / 3 - 30px);
+  margin: 15px;
 }
 
 .works-link {
   text-decoration: none;
 }
 
-.works-item {
-  /* background: #ffffff; */
+.works-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .works-text {
@@ -362,7 +409,6 @@ body {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-
   width: 370px;
 }
 
@@ -388,15 +434,27 @@ body {
   line-height: 1.88;
 }
 
+.projects-list {
+  display: flex;
+}
+
 .projects-btn {
   color: var(--primary-text-color);
   background-color: var(--team-button-bg-color);
+  border-radius: 4px;
+
+  padding: 6px 22px;
+  margin-right: 8px;
 
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+}
+
+.projects-btn:not(:last-child) {
+  margin-right: 8px;
 }
 
 .projects-btn:hover,

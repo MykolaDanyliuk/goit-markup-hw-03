@@ -24,41 +24,40 @@
             >Web<span class="studio-black">Studio</span></a
           >
           <ul class="header-list list">
-            <li>
+            <li class="header-item">
               <a href="./index.html" class="header-link">Студия</a>
             </li>
-            <li>
-              <a href="" class="header-link current">Портфолио</a>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link current">Портфолио</a>
             </li>
-            <li><a href="" class="header-link">Контакты</a></li>
+            <li class="header-item">
+              <a href="" class="header-link">Контакты</a>
+            </li>
           </ul>
         </nav>
-
-        <!--Ccылки на электронный адрес и телефон-->
-        <div>
-          <ul class="contacts-list list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="header-contacts"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel.:+380961111111" class="header-contacts"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="contacts-list list">
+          <li class="contacts-item mail">
+            <a href="mailto:info@devstudio.com" class="header-contacts"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item tel">
+            <a href="tel.:+380961111111" class="header-contacts"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
 
     <!--Уникальный контент страницы-->
     <main class="projects-page">
       <section class="projects section">
-        <h1 hidden>Наши проекты</h1>
+        <div class="container">
+          <h1 hidden>Наши проекты</h1>
         <ul class="projects-list list">
+          <li><button type="button" class="projects-btn pointer">Вcе</button></li>
           <li><button type="button" class="projects-btn pointer">Веб-сайты</button></li>
-          <li><button type="button" class="projects-btn pointer">Все</button></li>
           <li><button type="button" class="projects-btn pointer">Приложения</button></li>
           <li><button type="button" class="projects-btn pointer">Дизайн</button></li>
           <li><button type="button" class="projects-btn pointer">Маркетинг</button></li>
@@ -67,11 +66,9 @@
         <ul class="works-list list">
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-1.jpg"
                 alt="технокряк"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Технокряк</h2>
@@ -81,11 +78,9 @@
           </li class="works-item">
           <li>
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-2.jpg"
                 alt="постер баскетбол"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Постер New Orlean vs Golden Star</h2>
@@ -95,11 +90,9 @@
           </li>
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-3.jpg"
                 alt="ресторан"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Ресторан Seafood</h2>
@@ -109,11 +102,9 @@
           </li>
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-4.jpg"
                 alt="проект prime"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Проект Prime</h2>
@@ -123,11 +114,9 @@
           </li>
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-5.jpg"
                 alt="проект boxes"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Проект Boxes</h2>
@@ -137,11 +126,9 @@
           </li>
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-6.jpg"
                 alt="вебсайт inspiration"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Inspiration has no Borders</h2>
@@ -151,11 +138,9 @@
           </li>
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-7.jpg"
                 alt="журнал edition"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Издание Limited Edition</h2>
@@ -165,11 +150,9 @@
           </li>
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-8.jpg"
                 alt="проект lab"
-                width="370"
-                height="294"
               />
               <div class="works-text">
                 <h2 class="works-title">Проект LAB</h2>
@@ -179,11 +162,9 @@
           </li>
           <li class="works-item">
             <a href="" class="works-link">
-              <img
+              <img class="works-img"
                 src="./images/work-9.jpg"
                 alt="приложение buisness"
-                width="370"
-                height="294"
               />
             <div class="works-text">
               <h2 class="works-title">Growing Business</h2>
@@ -193,6 +174,8 @@
           </li>
         </ul>
       </section>
+        </div>
+        
     </main>
 
     <!--Подвал сайта-->
@@ -213,7 +196,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="address-items">
               <a href="tel.:+380961111111" class="footer-contacts"
                 >+38 096 111 11 11</a
               >
