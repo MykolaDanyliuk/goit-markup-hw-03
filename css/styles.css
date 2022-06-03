@@ -58,6 +58,8 @@ body {
 
 /* Logo */
 .logo {
+  margin-right: 93px;
+
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
 
@@ -133,9 +135,17 @@ body {
   justify-content: space-between; */
 }
 
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contacts-list {
   display: flex;
   margin-left: auto;
+}
+
+.tel {
+  margin-left: 50px;
 }
 
 /* .header-list > .header-item:not(:last-child) {
