@@ -116,18 +116,27 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-/* .header-nav {
+.header-page .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-/* .header-list {
+.header-nav {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
-} */
+}
+
+.header-list {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: flex-start;
+  justify-content: space-between; */
+}
+
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+}
 
 /* .header-list > .header-item:not(:last-child) {
   margin-right: 50px;
