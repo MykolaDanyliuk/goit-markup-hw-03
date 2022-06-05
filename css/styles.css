@@ -104,8 +104,8 @@ img {
 /* ------------ HEADER ------------ */
 .header-page {
   border-bottom: 1px solid #ececec;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 .header-page .container {
@@ -130,6 +130,7 @@ img {
 }
 
 .header-link {
+  display: block;
   color: var(--primary-text-color);
 
   font-style: normal;
