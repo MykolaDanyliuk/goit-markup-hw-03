@@ -118,6 +118,17 @@ img {
   align-items: center;
 }
 
+.header-list {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: flex-start;
+  justify-content: space-between; */
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-link {
   color: var(--primary-text-color);
 
@@ -127,7 +138,8 @@ img {
   line-height: 1.4;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -148,17 +160,6 @@ img {
 .header-contacts:hover,
 .header-contacts:focus {
   color: var(--accent-color);
-}
-
-.header-list {
-  display: flex;
-  /* align-items: center; */
-  /* justify-content: flex-start;
-  justify-content: space-between; */
-}
-
-.header-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .contacts-list {
